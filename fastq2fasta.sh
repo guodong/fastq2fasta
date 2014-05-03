@@ -1,4 +1,5 @@
 #!/bin/bash
+
 rm -rf ${2}
 n=$(grep @ -n ${1}|cut -d: -f1)
 for i in $n
